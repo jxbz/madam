@@ -1,5 +1,5 @@
 <h1 align="center">
-Madam optimiser (page under construction)
+Madam optimiser
 </h1>
 
 <p align="center">
@@ -18,7 +18,25 @@ Madam optimiser (page under construction)
 ## Getting started
 
 - Jax: [open the demo notebook in Colab](https://colab.research.google.com/github/jxbz/madam/blob/master/jax/fourfeat_demo.ipynb).
-- Pytorch: 
+- Pytorch: grab the file `pytorch/optim/madam.py` and place it in your project directory. Then type:
+```python
+from madam import Madam
+optimizer = Madam(net.parameters(), lr=0.01, p_scale=3.0, g_bound=10.0)
+```
+To understand what the different parameters do, note that the typical Madam update to a parameter is:
+
+```math
+w --> w exp(± lr).
+```
+
+The largest possible Madam update to a parameter is:
+```math
+w --> w exp(± g_bound x lr)
+```
+
+And finally the parameters are clipped to lie within the range `± init_scale x p_scale`.
+
+An initial learning rate of `lr = 0.01` is the recommended default. The algorithm converges to a solution which "jitters" around the true solution, at which point the learning rate should be decayed. We didn't experiment much with g_bound, but `g_bound = 10` was a good default. p_scale controls the size of the optimisation domain, and it was worth tuning this in the range `[1.0, 2.0, 3.0]`.
 
 ## About this repository
 
