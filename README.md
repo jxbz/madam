@@ -9,7 +9,7 @@ Madam optimiser (page under construction)
 <p align="center">
   <a href="https://jeremybernste.in" target="_blank">Jeremy&nbsp;Bernstein</a> &emsp; <b>&middot;</b> &emsp;
   <a href="https://jiawei-zhao.netlify.app" target="_blank">Jiawei&nbsp;Zhao</a> &emsp; <b>&middot;</b> &emsp;
-  <a href="https://www.bbe.caltech.edu/people/markus-meister" target="_blank">Markus&nbsp;Meister</a> &emsp; <b>&middot;</b> &emsp;
+  <a href="https://www.bbe.caltech.edu/people/markus-meister" target="_blank">Markus&nbsp;Meister</a> <br>
   <a href="http://mingyuliu.net/" target="_blank">Ming&#8209;Yu&nbsp;Liu</a> &emsp; <b>&middot;</b> &emsp;
   <a href="http://tensorlab.cms.caltech.edu/users/anima/" target="_blank">Anima&nbsp;Anandkumar</a> &emsp; <b>&middot;</b> &emsp;
   <a href="http://www.yisongyue.com" target="_blank">Yisong&nbsp;Yue</a>
