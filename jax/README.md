@@ -2,6 +2,9 @@
 Madam optimiser
 </h1>
 
+![Demo output.](movie.gif)
+*The output of this demo for different (depth, optimiser, learning_rate) tuples.*
+
 ## Jax demo
 
 This directory contains a Jupyter notebook called `fourfeat_demo.ipynb` which you can [open and run in Colab](https://colab.research.google.com/github/jxbz/madam/blob/master/jax/fourfeat_demo.ipynb).
