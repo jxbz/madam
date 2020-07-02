@@ -1,6 +1,10 @@
-# Train CIFAR10 and CIFAR100 with Madam
+<h1 align="center">
+Madam optimiser
+</h1>
 
-The repository is forked from [PyTorch Examples](https://github.com/pytorch/examples).
+## Train CIFAR10 and CIFAR100 with Madam
+
+The repository is forked from [kuangliu's code](https://github.com/kuangliu/pytorch-cifar).
 
 ## Prerequisites
 - Python 3.6+
