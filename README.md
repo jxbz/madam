@@ -17,6 +17,9 @@ Madam optimiser (page under construction)
 
 ## Getting started
 
+- Jax: [open the demo notebook in Colab](https://colab.research.google.com/github/jxbz/madam/blob/master/jax/fourfeat_demo.ipynb).
+- Pytorch: 
+
 ## About this repository
 
 > [Learning compositional functions via multiplicative weight updates](https://arxiv.org/abs/2006.14560).
@@ -30,6 +33,8 @@ If something isn't clear or isn't working, let us know in the *Issues section* o
 Here is the structure of this repository.
 
     .
+    ├── pytorch/                # Pytorch code to reproduce experiments in the paper.
+    ├── jax/                    # A Jax demo notebook.
     ├── LICENSE                 # The license on our algorithm.
     └── README.md               # The very page you're reading now.
     
