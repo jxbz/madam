@@ -22,6 +22,8 @@ Madam optimiser (page under construction)
 
 ## About this repository
 
+This repository accompanies the following paper:
+
 > [Learning compositional functions via multiplicative weight updates](https://arxiv.org/abs/2006.14560).
 
 We're putting this code here so that you can test out our optimisation algorithm in your own applications, and also so that you can attempt to reproduce the experiments in our paper.
@@ -29,8 +31,6 @@ We're putting this code here so that you can test out our optimisation algorithm
 If something isn't clear or isn't working, let us know in the *Issues section* or contact [bernstein@caltech.edu](mailto:bernstein@caltech.edu).
 
 ## Repository structure
-
-Here is the structure of this repository.
 
     .
     ├── pytorch/                # Pytorch code to reproduce experiments in the paper.
