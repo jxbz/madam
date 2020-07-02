@@ -10,8 +10,7 @@ Look inside `batch.sh` for the commands used in the paper.
 
 The `main.py` script accepts the following arguments:
 
-```bash
-optional arguments:
+```
 optional arguments:
   -h, --help            show this help message and exit
   --data DATA           location of the data corpus
