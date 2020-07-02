@@ -3,7 +3,7 @@ Madam optimiser
 </h1>
 
 ![Demo output.](movie.gif)
-*The output of this demo for different (depth, optimiser, learning_rate) tuples.*
+*The output of this demo for different (depth, optimiser, learning_rate) tuples. Notice that Madam "jitters" around the solution, at which point the learning rate should be reduced.*
 
 ## Jax demo
 
