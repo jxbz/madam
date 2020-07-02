@@ -1,5 +1,5 @@
 <h1 align="center">
-cGAN
+Madam optimiser
 </h1>
 
 ## CIFAR-10 class conditional GAN
@@ -18,6 +18,8 @@ See inside `batch.sh` for the commands run in the paper.
 instead of `init.constant_(m.bias.data, 0.0)`
 - Initialise self-attention gamma using `self.gamma = nn.Parameter(torch.ones(1))`
 instead of `self.gamma = nn.Parameter(torch.ones(1))`
+
+These changes were made since a multiplicative update has no effect on a parameter intialised to zero.
 
 ## Acknowledgements
 - The self attention block implementation is originally by https://github.com/zhaoyuzhi.
