@@ -18,7 +18,7 @@ Madam optimiser
 ## Getting started
 
 - Jax: [open the demo notebook in Colab](https://colab.research.google.com/github/jxbz/madam/blob/master/jax/fourfeat_demo.ipynb).
-- Pytorch: grab the file `pytorch/optim/madam.py` and place it in your project directory. Then type:
+- Pytorch: grab [madam.py](https://github.com/jxbz/madam/blob/master/pytorch/optim/madam.py) and place it in your project directory. Then type:
 ```python
 from madam import Madam
 optimizer = Madam(net.parameters(), lr=0.01, p_scale=3.0, g_bound=10.0)
@@ -40,7 +40,7 @@ An initial learning rate of `lr = 0.01` is the recommended default. The algorith
 
 ## About this repository
 
-This repository accompanies the following paper:
+This repository was built by <a href="https://jeremybernste.in" target="_blank">Jeremy&nbsp;Bernstein</a> and <a href="https://jiawei-zhao.netlify.app" target="_blank">Jiawei&nbsp;Zhao</a> to accompany the following paper:
 
 > [Learning compositional functions via multiplicative weight updates](https://arxiv.org/abs/2006.14560).
 
