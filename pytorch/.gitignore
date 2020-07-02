@@ -1,0 +1,10 @@
+*/__pycache__/
+*/*/__pycache__/
+
+cGAN/samples/
+cGAN/data/
+cGAN/logs/
+
+transformer-wikitext2/model.pt
+transformer-wikitext2/data/
+transformer-wikitext2/logs/
