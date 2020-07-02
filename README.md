@@ -31,7 +31,7 @@ w --> w exp(± lr).
 
 The largest possible Madam update to a parameter is:
 ```math
-w --> w exp(± g_bound x lr)
+w --> w exp(± g_bound x lr).
 ```
 
 And finally the parameters are clipped to lie within the range `± init_scale x p_scale`.
@@ -61,6 +61,7 @@ If something isn't clear or isn't working, let us know in the *Issues section* o
 - Our GAN implementation is based on a codebase by [Jiahui Yu](http://jiahuiyu.com/).
 - Our Transformer code is from the [Pytorch example](https://github.com/pytorch/examples/tree/master/word_language_model).
 - Our CIFAR-10 classification code is orginally by [kuangliu](https://github.com/kuangliu/pytorch-cifar).
+- Our Jax demo is based on the [Fourier feature networks](https://people.eecs.berkeley.edu/~bmild/fourfeat/) codebase.
 
 ## Citation
 
