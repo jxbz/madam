@@ -23,7 +23,7 @@ Madam optimiser
 from madam import Madam
 optimizer = Madam(net.parameters(), lr=0.01, p_scale=3.0, g_bound=10.0)
 ```
-To understand what the different parameters do, note that the typical Madam update to a parameter is:
+To understand what the different hyperparameters do, note that the typical Madam update to a parameter `w` is:
 
 ```math
 w --> w exp(± lr).
