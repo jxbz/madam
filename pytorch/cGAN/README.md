@@ -12,12 +12,12 @@ python main.py --seed 0 --optim madam --initial_lr 0.01
 ```
 See inside `batch.sh` for the commands run in the paper.
 
-## Changes compared to the [Fromage repository](https://github.com/jxbz/fromage)
+## Changes compared to original implementation
 
 - Initialise biases using `init.normal_(m.bias.data, mean=0.0, std=0.01)`
 instead of `init.constant_(m.bias.data, 0.0)`
 - Initialise self-attention gamma using `self.gamma = nn.Parameter(torch.ones(1))`
-instead of `self.gamma = nn.Parameter(torch.ones(1))`
+instead of `self.gamma = nn.Parameter(torch.zeros(1))`
 
 These changes were made since a multiplicative update has no effect on a parameter intialised to zero.
 
