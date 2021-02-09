@@ -68,11 +68,11 @@ If something isn't clear or isn't working, let us know in the *Issues section* o
 If you find Madam useful, feel free to cite [the paper](https://arxiv.org/abs/2006.14560):
 
 ```bibtex
-@misc{madam2020,
-    title={Learning compositional functions via multiplicative weight updates},
-    author={Jeremy Bernstein and Jiawei Zhao and Markus Meister and Ming-Yu Liu and Anima Anandkumar and Yisong Yue},
-    year={2020},
-    eprint={arXiv:2002.03432}
+@inproceedings{madam,
+  title={Learning compositional functions via multiplicative weight updates},
+  author={Jeremy Bernstein and Jiawei Zhao and Markus Meister and Ming-Yu Liu and Anima Anandkumar and Yisong Yue},
+  booktitle = {Neural Information Processing Systems},
+  year={2020}
 }
 ```
 
